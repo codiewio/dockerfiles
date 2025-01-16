@@ -1,0 +1,11 @@
+{
+  "name": "golang_1_23",
+  "labels": [],
+  "description": "Golang 1.23",
+  "compileCmd": "GOOS=linux GOARCH=amd64 CGO_ENABLED=0  GO111MODULE=off GOPROXY=https://proxy.golang.org go build -o main",
+  "runCmd": "./main",
+  "options": {
+    "compileTTL": 30,
+    "runTTL": 5
+  }
+}

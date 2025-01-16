@@ -1,0 +1,11 @@
+{
+  "name": "python_3",
+  "labels": [],
+  "description": "Python 3.12",
+  "compileCmd": "pip install --no-cache-dir -r requirements.txt || true",
+  "runCmd": "python3 main.py",
+  "options": {
+    "compileTTL": 30,
+    "runTTL": 5
+  }
+}
