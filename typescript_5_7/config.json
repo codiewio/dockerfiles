@@ -1,0 +1,11 @@
+{
+  "name": "typescript_5_7",
+  "labels": [],
+  "description": "Typescript 5.7",
+  "compileCmd": "",
+  "runCmd": "tsc -p tsconfig.json  && node ./dist/index.js",
+  "options": {
+    "compileTTL": 30,
+    "runTTL": 5
+  }
+}
