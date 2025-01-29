@@ -10,6 +10,6 @@
   },
   "ScriptOptions": {
     "Enable": true,
-    "Sourcefile": "index.ts"
+    "SourceFile": "index.ts"
   }
 }
