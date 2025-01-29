@@ -1,11 +1,15 @@
 {
-  "name": "php83",
-  "labels": [],
-  "description": "PHP 8.3",
-  "compileCmd": "composer -v",
-  "runCmd": "php index.php",
-  "options": {
-    "compileTTL": 30,
-    "runTTL": 5
+  "Name": "php83",
+  "Labels": [],
+  "Description": "PHP 8.3",
+  "CompileCmd": "",
+  "RunCmd": "php index.php",
+  "Options": {
+    "CompileTTL": 30,
+    "RunTTL": 5
+  },
+  "ScriptOptions": {
+    "Enable": true,
+    "SourceFile": "index.php"
   }
 }

@@ -1,11 +1,15 @@
 {
-  "name": "python_3",
-  "labels": [],
-  "description": "Python 3.12",
-  "compileCmd": "pip install --no-cache-dir -r requirements.txt || true",
-  "runCmd": "python3 main.py",
-  "options": {
-    "compileTTL": 30,
-    "runTTL": 5
+  "Name": "python_3",
+  "Labels": [],
+  "Description": "Python 3.12",
+  "CompileCmd": "",
+  "RunCmd": "python3 main.py",
+  "Options": {
+    "CompileTTL": 30,
+    "RunTTL": 5
+  },
+  "ScriptOptions": {
+    "Enable": true,
+    "SourceFile": "main.py"
   }
 }

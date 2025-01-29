@@ -1,4 +1,0 @@
-{
-  "main.py": "import requests\n\ndef fetch_example():\n    response = requests.get(\"https://jsonplaceholder.typicode.com/todos/1\")\n    if response.status_code == 200:\n        print(\"Данные:\", response.json())\n    else:\n        print(\"Ошибка:\", response.status_code)\n\nif __name__ == \"__main__\":\n    fetch_example()\n",
-  "requirements.txt": "requirements.txt\n"
-}
