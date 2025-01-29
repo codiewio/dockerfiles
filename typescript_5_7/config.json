@@ -3,7 +3,7 @@
   "Labels": [],
   "Description": "Typescript 5.7",
   "CompileCmd": "tsc -p tsconfig.json",
-  "RunСmd": "node ./dist/index.js",
+  "RunCmd": "node ./dist/index.js",
   "Options": {
     "CompileTTL": 30,
     "RunTTL": 5
